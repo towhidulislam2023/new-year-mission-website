@@ -142,9 +142,10 @@
     height: 55vh;
     width: 100%;
     /* background: red; */
-   
+
 }
-.plan-sec{
+
+.plan-sec {
     height: 55vh;
     width: 100%;
     display: flex;
@@ -189,7 +190,7 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    
+
 }
 
 .skill-image {
@@ -211,4 +212,28 @@
     line-height: 29px;
     text-align: center;
     color: #737272;
+}
+
+/* bannar section  */
+.only-bannar {
+    height: 50vh;
+    width: 100%;
+    background: red;
+}
+
+.img-bnr {
+    height: 50vh;
+    width: 100%;
+    background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bnr-sec {
+    height: 300px;
+    width: 60%;
+    border-radius: 10px;
+    background: linear-gradient(to left, rgba(114, 166, 196, 0.062), rgba(0, 17, 250, 0.699)), url(../images/watch.png);
+    background-size: cover;
 }
