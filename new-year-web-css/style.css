@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header-secction  */
+.header {
+    height: 105vh;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.header-continer {
+    height: 105vh;
+    width: 100%;
+    background: url(/images/banner/banner3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-text-box {
+    width: 35%;
+    text-align: right;
+    margin-top: 190px;
+    margin-right: 200px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.header-description {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.contact-btn {
+    margin-top: 32px;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+}
+
+/* main section  */
+
+/* failures-container-section */
+.failures-container {
+    height: 100vh;
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.failures-boxes {
+    width: 80%;
+    height: 90%;
+    /* background: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 87px;
+}
+
+.failures-image {
+    width: 469px;
+    height: 523.3px;
+    /* background: blueviolet; */
+}
+
+.failures-list {
+    width: 469px;
+    height: 523.3px;
+    /* background: blueviolet; */
+
+}
+
+.fail-img {
+    width: 469px;
+    height: 523.3px;
+}
+
+.failures-text {
+    padding: 65px;
+}
+
+.failures-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failures-descripion {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failures-list-srl li {margin-left: 24px ;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #444343;
+    list-style:none;
+}
+.failures-list-srl li:before {
+    content: '✓';
+    color: #005FAC;
+    font-weight: bold;
+  }
