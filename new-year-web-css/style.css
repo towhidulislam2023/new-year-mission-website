@@ -225,7 +225,7 @@
 .img-bnr {
     height: 50vh;
     width: 100%;
-    background: yellow;
+    /* background: yellow; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -238,4 +238,16 @@
     background: linear-gradient(to left, rgba(114, 166, 196, 0.062), rgba(0, 17, 250, 0.699)), url(../images/watch.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.bnr-text {
+    margin: 59px 64px;
+}
+
+.bnr-title {
+    width: 59%;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
 }
