@@ -215,6 +215,7 @@
 }
 
 /* bannar section  */
+
 .only-bannar {
     height: 50vh;
     width: 100%;
@@ -236,4 +237,5 @@
     border-radius: 10px;
     background: linear-gradient(to left, rgba(114, 166, 196, 0.062), rgba(0, 17, 250, 0.699)), url(../images/watch.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
