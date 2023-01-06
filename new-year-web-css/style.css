@@ -11,7 +11,7 @@
 .header {
     height: 105vh;
     width: 100%;
- 
+
     /* background-color: red; */
 }
 
@@ -122,15 +122,87 @@
     margin-bottom: 16px;
 }
 
-.failures-list-srl li {margin-left: 24px ;
+.failures-list-srl li {
+    margin-left: 24px;
     font-weight: 400;
     font-size: 15px;
     line-height: 26px;
     color: #444343;
-    list-style:none;
+    list-style: none;
 }
+
 .failures-list-srl li:before {
     content: '✓';
     color: #005FAC;
     font-weight: bold;
-  }
+}
+
+/* plans section  */
+.plans {
+    height: 55vh;
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-box {
+    height: 380px;
+    width: 80%;
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.plan-title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+}
+
+.m-plan-box {
+    height: 203px;
+    width: 90%;
+    /* background: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 31px;
+}
+
+.skill-box {
+    height: 150px;
+    width: 300px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.skill-image {
+    height: 50px;
+    width: 50px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+
+.slill-desc {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
